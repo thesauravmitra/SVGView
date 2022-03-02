@@ -6,9 +6,9 @@
 //  Copyright © 2017 Exyte. All rights reserved.
 //
 
-import Foundation
-
 #if os(OSX)
+
+import AppKit
 
 public struct MRectCorner: OptionSet {
     public let rawValue: UInt
